@@ -1,0 +1,28 @@
+.tab-nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .tab-nav li{
+    flex-grow: 1;
+    flex-basis: auto;
+    text-align: center;
+    padding: 10px;
+    border-bottom: solid 1px #ccc;
+  }
+  
+  .tab-nav li:hover{
+    cursor: pointer;
+  }
+  
+  .tab-nav li.tab-active{
+    border-bottom: solid 4px #2F80ED;
+  }
+
+  .todo-container{
+      max-width: 600px;
+      margin: 0 auto;
+  }

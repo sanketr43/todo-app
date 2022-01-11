@@ -1,0 +1,17 @@
+.task-list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.task-item{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+.task-item input{
+    width: 15px;
+    height: 15px;
+}
