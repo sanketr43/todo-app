@@ -1,0 +1,23 @@
+.add-task{
+    display: flex;
+    gap: 10px;
+}
+
+.add-task input{
+    width: 100%;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+.add-task button{
+    background: #2F80ED;
+    color: white;
+    border: solid 1px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+    flex-basis: 100px;
+    cursor: pointer;
+}
